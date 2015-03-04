@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OracleFrameworkTestChrome" verbose="5" >
+	<parameter name="browserName" value="chrome"/>		
+	<test name="TestChrome">
+		<classes>
+		  <class name="oracle.com.hometest.HomePageTest"/>
+	      <class name="oracle.com.logintest.LoginPageTest"/>
+		  <class name="oracle.com.resulttest.ResultPageTest"/>	
+		</classes>
+	</test>	  
+</suite>

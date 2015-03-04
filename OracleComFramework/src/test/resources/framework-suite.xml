@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="General test suite">
+	<suite-files>
+		<!-- Chrome suite -->
+		<suite-file path="chrome-test-framework.xml" />
+		<!-- Firefox suite -->
+		<suite-file path="firefox-test-framework.xml" />
+	</suite-files>
+</suite>
