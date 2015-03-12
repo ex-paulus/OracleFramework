@@ -1,9 +1,9 @@
-package oracle.com.hometest;
+package com.oracle.hometest;
 
-import junit.framework.Assert;
-import oracle.com.basetest.TestBase;
-
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.oracle.basetest.TestBase;
 
 public class HomePageTest extends TestBase{
 	

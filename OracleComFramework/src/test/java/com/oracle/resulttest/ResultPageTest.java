@@ -1,10 +1,10 @@
-package oracle.com.resulttest;
+package com.oracle.resulttest;
 
-import junit.framework.Assert;
-import oracle.com.basetest.TestBase;
-import oracle.com.resultpage.ResultPage;
-
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.oracle.basetest.TestBase;
+import com.oracle.resultpage.ResultPage;
 
 public class ResultPageTest extends TestBase{
 	

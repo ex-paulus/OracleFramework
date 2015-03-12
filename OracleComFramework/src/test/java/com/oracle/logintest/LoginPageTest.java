@@ -1,16 +1,16 @@
-package oracle.com.logintest;
+package com.oracle.logintest;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import oracle.com.basetest.TestBase;
-import oracle.com.homepage.HomePage;
-import oracle.com.loginpage.LoginPage;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.oracle.basetest.TestBase;
+import com.oracle.homepage.HomePage;
+import com.oracle.loginpage.LoginPage;
 
 public class LoginPageTest extends TestBase {
 	

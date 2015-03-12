@@ -1,8 +1,6 @@
-package oracle.com.resultpage;
+package com.oracle.resultpage;
 
 import java.util.List;
-
-import oracle.com.basepage.Page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +10,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.oracle.basepage.Page;
 
 public class ResultPage extends Page{
 

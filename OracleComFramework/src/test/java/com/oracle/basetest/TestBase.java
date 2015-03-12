@@ -1,15 +1,15 @@
-package oracle.com.basetest;
+package com.oracle.basetest;
 
 import java.util.concurrent.TimeUnit;
-
-import oracle.com.homepage.HomePage;
-import oracle.com.webdriver.WebDriverFactory;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
+
+import com.oracle.homepage.HomePage;
+import com.oracle.webdriver.WebDriverFactory;
 
 public class TestBase {
 	

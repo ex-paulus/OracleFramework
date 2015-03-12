@@ -1,4 +1,4 @@
-package oracle.com.basepage;
+package com.oracle.basepage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

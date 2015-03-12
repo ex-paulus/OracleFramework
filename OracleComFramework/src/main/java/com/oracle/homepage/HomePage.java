@@ -1,10 +1,6 @@
-package oracle.com.homepage;
+package com.oracle.homepage;
 
 import java.util.List;
-
-import oracle.com.basepage.Page;
-import oracle.com.loginpage.LoginPage;
-import oracle.com.resultpage.ResultPage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +11,10 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.oracle.basepage.Page;
+import com.oracle.loginpage.LoginPage;
+import com.oracle.resultpage.ResultPage;
 
 public class HomePage extends Page{
 

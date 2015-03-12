@@ -4,9 +4,9 @@
 	<parameter name="browserName" value="chrome"/>		
 	<test name="TestChrome">
 		<classes>
-		  <class name="oracle.com.hometest.HomePageTest"/>
-	      <class name="oracle.com.logintest.LoginPageTest"/>
-		  <class name="oracle.com.resulttest.ResultPageTest"/>	
+		  <class name="com.oracle.hometest.HomePageTest"/>
+	      <class name="com.oracle.logintest.LoginPageTest"/>
+		  <class name="com.oracle.resulttest.ResultPageTest"/>	
 		</classes>
 	</test>	  
 </suite>

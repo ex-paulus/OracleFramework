@@ -1,13 +1,13 @@
-package oracle.com.loginpage;
-
-import oracle.com.basepage.Page;
-import oracle.com.homepage.HomePage;
+package com.oracle.loginpage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+
+import com.oracle.basepage.Page;
+import com.oracle.homepage.HomePage;
 
 public class LoginPage extends Page{
 
